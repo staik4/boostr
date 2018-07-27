@@ -9,6 +9,12 @@
 	<link rel="stylesheet" href="js/OwlCarousel2/dist/assets/owl.carousel.css">
 </head>
 <body>
+	<div id="language">
+		<div class="change-language">
+			<div class="language active-language  en" data-language="en">EN</div>
+			<div class="language ru" data-language="ru">RU</div>
+		</div>
+	</div>
 	<div class="main-header">
 		<section id="header">
 			<div class="container">

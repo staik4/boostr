@@ -27,6 +27,31 @@
   src: url("fonts/SFUITextRegular.eot") format("embedded-opentype"), url("fonts/SFUITextRegular.woff2") format("woff2"), url("fonts/SFUITextRegular.woff") format("woff"), url("fonts/SFUITextRegular.ttf") format("truetype"), url("fonts/SFUITextRegular.svg#SFUITextRegular") format("svg");
 }
 /*#FFC30F - оранжевый*/
+#language {
+  width: 100%;
+  position: relative;
+}
+#language .change-language {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+}
+#language .change-language:first-child:hover {
+  text-shadow: 0;
+}
+#language .change-language div {
+  margin-left: 10px;
+  cursor: pointer;
+}
+#language .change-language div:hover {
+  text-shadow: 0px 0px 10px #FFC30F;
+}
+
+.active-language {
+  color: #eb5845;
+}
+
 * {
   font-size: 16px;
   color: white;
