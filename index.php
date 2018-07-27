@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v=123122">
 	<link rel="stylesheet" href="js/OwlCarousel2/dist/assets/owl.carousel.css">
 </head>
 <body>
@@ -633,8 +633,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="js/jquery.inputmask.bundle.min.js"></script>
-	<script src="js/main.js"></script>
-	<script src=js/mail.js></script>
+	<script src="js/main.js?v=123122"></script>
+	<script src="js/mail.j?v=123122s"></script>
 	<script src="js/OwlCarousel2/dist/owl.carousel.js">
 
 	</script>

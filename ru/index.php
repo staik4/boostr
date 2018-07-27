@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css?v=123122">
 	<link rel="stylesheet" href="js/OwlCarousel2/dist/assets/owl.carousel.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
 			<div class="language active-language ru" data-language="ru">RU</div>
 		</div>
 	</div>
-	
+
 	<div class="main-header">
 		<section id="header">
 			<div class="container">
@@ -54,7 +54,7 @@
 				<div class="row">
 					<div class="move banner d-flex flex-column col-xl-12 justify-content-center">
 						<!-- <div class="man"><img src="img/man.svg" alt=""></div> -->
-						<span class="banner-text">ПЕРВАЯ ГЛОБАЛЬНЯ ИНВЕСТИЦИОННАЯ ЭКОСИСТЕМА<span class="red-text">ПУБЛИЧНЫХ СТАРТАПОВ</span></span>
+						<span class="banner-text">FIRST GLOBAL PUBLIC STARTUP <span class="red-text">INVESTMENT ECOSYSTEM</span></span>
 						<div class="buttons-banner d-flex justify-content-center">
 							<div id="join-us" class="btn-banner">Присоединяйтесь</div>
 							<div id="presentation" class="btn-banner">Презентация</div>
@@ -608,19 +608,19 @@
 					<div class="logo d-flex justify-content-center align-items-center flex-wrap col-xl-2  col-lg-2 col-md-2 col-12">
 						<div style=" width: 100%; height: 81px;"><img src="img/logo-red.svg" alt="logo_westart"></div>
 					</div>
-					<div class="nav col-12 col-md-9 col-lg-6 col-xl-6">
+					<div class="nav col-12 col-md-9 col-lg-7 col-xl-7">
 						<nav class="d-flex align-items-center">
 							<ul class="nsvUl">
-								<li class="active-nav"><a href="#about">О компании</a></li>
+								<li class="active-nav"><a href="#about">О нас</a></li>
 								<li><a href="#give-startup">Инвестиции</a></li>
-								<li><a href="#industry-focus">Инндустрия</a></li>
+								<li><a href="#industry-focus">Индустрия</a></li>
 								<li><a href="#team">Команда</a></li>
-								<li><a href="#form">Присоединяйтесь к нам.</a></li>
+								<li><a href="#form">Присоединяйтесь</a></li>
 								<!-- <li><a href="#">For StartUp</a></li> -->
 							</ul>
 						</nav>
 					</div>
-					<div class="cont-header col-md-12 col-lg-4 col-xl-4 d-flex justify-content-around align-items-center">
+					<div class="cont-header col-md-12 col-lg-3 col-xl-3 d-flex justify-content-around align-items-center">
 						<span class="email">info@boostr.vc</span>
 						<div class="soc-icon-header d-flex justify-content-around">
 							<div class="telegram"><img src="img/soc-icon/telegram-soc-icon.svg" alt="soc-icon-header"></div>
@@ -635,12 +635,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="js/jquery.inputmask.bundle.min.js"></script>
-	<script src="js/main.js"></script>
-	<script src=js/mail.js></script>
+	<script src="js/main.js?v=123122"></script>
+	<script src=js/mail.js?v=123122></script>
 	<script src="js/OwlCarousel2/dist/owl.carousel.js">
 
 	</script>
-	    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <!-- 	<script>
 		var scene = document.getElementById('scene1');
 		var parallaxInstance = new Parallax(scene);
