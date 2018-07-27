@@ -228,4 +228,12 @@ $(document).ready(function(){
 		$(this).children('img').attr('src',url + ".svg")
 	});
 
+	$(".language").each(function(){
+		$(this).click(function(){
+			if ($(this).data('language') == "en"){
+				document.location.replace("http://localhost/boostr/");
+				// document.location.replace("http://www.boostr.vc");
+			}
+		})
+	})
 });
