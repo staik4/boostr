@@ -239,7 +239,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="title-world-map">
-					<span>MAP</span>
+					<span>WORLDWIDE PRESENCE</span>
 				</div>
 				<div class="map-worlwide">
 					<img src="img/world-new.png" alt="world-wide" style="width: 100%">
@@ -252,7 +252,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="title-dive-startup" style="width:100%">
-					<span class="text-center">ЧТО BOOSTR ДАЕТ СТАРТАПУ:</span>
+					<span class="text-center">WHAT BOOSTR OFFERS TO STARTUPS::</span>
 				</div>
 				<div class="give-startup d-flex flex-row flex-wrap">
 					<div class="col-xl-6 d-flex flex-column justify-content-between">
@@ -261,7 +261,7 @@
 								<img src="img/incon-give-startup/laptop_boostr.svg" alt="" style="height: 70px; margin-right:30px;">
 							</div>
 							<div class="text-item-give-startup">
-								<span>Готовая маркетинговая платформа и мощное продвижение по всему миру на протяжении всего периода совместной работы</span>
+								<span>Each startup joins our marketing and PR platform and and is promoted worldwide during the entire period of its BOOSTR association</span>
 							</div>
 						</div>
 
@@ -270,7 +270,7 @@
 								<img src="img/incon-give-startup/presentation.svg" alt="" style="height: 70px; margin-right:30px;">
 							</div>
 							<div class="text-item-give-startup">
-								<span>Представление на международных конференциях и форумах</span>
+								<span>Including publications, SMM, presence in investment project directory, participation in BOOSTR events</span>
 							</div>
 						</div>
 
@@ -279,7 +279,7 @@
 								<img src="img/incon-give-startup/businessman.svg" alt="" style="height: 70px; margin-right:30px;">
 							</div>
 							<div class="text-item-give-startup">
-								<span>Организация работы с венчурными фондами и частными инвесторами по всему миру</span>
+								<span>Business relations with venture funds and private investors around the world</span>
 							</div>
 						</div>
 					</div>
@@ -289,7 +289,7 @@
 								<img src="img/incon-give-startup/accounting.svg" alt="" style="height: 70px; margin-right:30px;">
 							</div>
 							<div class="text-item-give-startup">
-								<span>Организация работы с венчурными фондами и частными инвесторами по всему миру</span>
+								<span>Accounting, legal services, financial reporting, transaction support</span>
 							</div>
 						</div>
 
@@ -298,7 +298,7 @@
 								<img src="img/incon-give-startup/job-search.svg" alt="" style="height: 70px; margin-right:30px;">
 							</div>
 							<div class="text-item-give-startup">
-								<span>Организация работы с венчурными фондами и частными инвесторами по всему миру</span>
+								<span>Assistance in formulation of business plan, presentations, financial modeling, investormatching, deal structuring and deal closing</span>
 							</div>
 						</div>
 
@@ -307,7 +307,7 @@
 								<img src="img/incon-give-startup/transfer.svg" alt="" style="height: 70px; margin-right:30px;">
 							</div>
 							<div class="text-item-give-startup">
-								<span>Организация работы с венчурными фондами и частными инвесторами по всему миру</span>
+								<span>Assistance in opening a company in the target jurisdiction, bank account, tax optimization</span>
 							</div>
 						</div>
 					</div>
