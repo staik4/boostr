@@ -111,6 +111,7 @@ $(document).ready(function(){
 		//$(".titles-gls").css({"height":ulWidth})
 	}, 500);
 
+	// owl_data.reinit({touchDrag: false, mouseDrag: false;});
 
 
 	let owl = $('.owl-carousel');
@@ -118,8 +119,8 @@ $(document).ready(function(){
 	    loop:true,
 	    margin:13,
 	    nav:false,
-			// autoplay: true,
-			// smartSpeed: 1000,
+			autoplay: true,
+			smartSpeed: 1000,
 			responsive:{
 				0:{
 						items:1,
@@ -138,9 +139,12 @@ $(document).ready(function(){
 	let kDeltaY = 0;
 	let jDeltaY = 0;
 	owl.on('mousewheel', '.owl-stage', function (e) {
-		e.preventDefault();
+		// e.preventDefault();
 		// console.log(e.deltaY, e.deltaX, e.deltaFactor);
 	    if (e.deltaX < 0 ) {
+				$('.owl-carousel').trigger('change.owl.carousel', {
+					autoplay: false
+			  });
 				kDeltaX+=1;
 				if (kDeltaX >= 20){
 					owl.trigger('prev.owl');
@@ -151,6 +155,7 @@ $(document).ready(function(){
 				}
 
 	    } else if(e.deltaX > 0) {
+
 				// console.log(e.deltaX, e.deltaY);
 				jDeltaX+=1;
 				console.log(jDeltaX);
@@ -163,25 +168,28 @@ $(document).ready(function(){
 					$.noop;
 				}
 
-			} else if (e.deltaY < 0){
+			}
+			else if (e.deltaY < 0){
 				kDeltaY +=1;
-				if (kDeltaY >= 5){
-					owl.trigger('prev.owl');
-					kDeltaY = 0;
-					// 	console.log("k", kDeltaX);
-				} else {
-					$.noop;
-				}
+				e.isDefaultPrevented = function(){ return false; }
+				// if (kDeltaY >= 5){
+				// 	owl.trigger('prev.owl');
+				// 	kDeltaY = 0;
+				// 	// 	console.log("k", kDeltaX);
+				// } else {
+				// 	$.noop;
+				// }
 			} else  if(e.deltaY > 0) {
-				jDeltaY +=1;
-				console.log(jDeltaX);
-				if (jDeltaY >= 5){
-					owl.trigger('next.owl');
-					jDeltaY = 0;
-					// 	console.log("j",jDeltaX);
-				} else {
-					$.noop;
-				}
+				e.isDefaultPrevented = function(){ return false; }
+				// jDeltaY +=1;
+				// console.log(jDeltaX);
+				// if (jDeltaY >= 5){
+				// 	owl.trigger('next.owl');
+				// 	jDeltaY = 0;
+				// 	// 	console.log("j",jDeltaX);
+				// } else {
+				// 	$.noop;
+				// }
 			}
 			// 	if (e.deltaY < 0) {
 			// 		kDeltaY+=1;
