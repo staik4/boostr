@@ -559,6 +559,24 @@
 								</div>
 							</div>
 						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/Brehcist_.png" alt="Brehcist">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members">John Brehcist<br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+									John Brehcist has thirty years’ experience in the Commercial Finance Industry. His Roundwindow consultancy specialises in Strategic Management issues, helping CEOs and leaders develop their strategy, structure, processes and people.
+									The consultancy has worked with clients in UK, mainland Europe, Turkey, Russia and South Africa. Retained as Advocacy Director to FCI.
+									He was the Head of Strategy and Research for Lloyds TSB Commercial Finance, a global scale invoice finance company and also has considerable senior level invoice finance industry operational experience. John has an MA from Oxford University UK and a distinction class MBA from Warwick Business School UK.
+									</span>
+								</div>
+							</div>
+						</div>
 						<!-- <div class="item">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
 								<div class="d-flex justify-content-center" style="width: 100%">
