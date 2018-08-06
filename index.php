@@ -252,7 +252,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="title-dive-startup" style="width:100%">
-					<span class="text-center">WHAT BOOSTR OFFERS TO STARTUPS::</span>
+					<span class="text-center">WHAT BOOSTR OFFERS TO STARTUPS:</span>
 				</div>
 				<div class="give-startup d-flex flex-row flex-wrap">
 					<div class="col-xl-6 d-flex flex-column justify-content-between">
