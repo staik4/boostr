@@ -863,6 +863,29 @@ nav ul li a:hover {
   margin-top: 75px;
 }
 
+/*=======partners=================*/
+.our-partners h1 {
+  color: #eb5845;
+  font-size: 72px;
+  text-align: center;
+  font-family: "FontfabricUniNeueHeavy";
+  width: 100%;
+  display: block;
+  margin: 50px 0 50px 0;
+  text-transform: uppercase;
+}
+
+.logo h2 {
+  font-family: SFUITextRegular;
+  color: #383838;
+}
+
+.description-partners p {
+  font-family: SFUITextRegular;
+  font-size: 18px;
+  color: #383838;
+}
+
 @media screen and (max-width: 1100px) {
   .industry-focus-layout {
     width: 100%;

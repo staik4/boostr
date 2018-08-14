@@ -577,6 +577,28 @@
 								</div>
 							</div>
 						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/denis.png" alt="Dennis">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members">Dennis Firmansjah MM<br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+										Dennis Firmansjah has been appointed as Independent Commissioner of PT Bussan Auto Finance, one of the largest motor cycle financing.
+										The company was established in 1997 and the majority owner is Mitsui Corporation, Japan which is one of the largest group.
+										He also serves as Chairman of Audit, Nomination and Remuneration Committee.
+										He has been appointed as Independent Commissioner of PT Smart Multi Finance, a middle size finance company with strong captive presence primarily in Kalimantan and Sulawesi.
+										The company concentrates in Multi Purpose Financing activity.
+
+
+									</span>
+								</div>
+							</div>
+						</div>
 						<!-- <div class="item">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
 								<div class="d-flex justify-content-center" style="width: 100%">
@@ -600,7 +622,24 @@
 			</div>
 		</div>
 	</section>
-
+	<section id="our-partner">
+		<div class="container">
+			<div class="row">
+				<div class="our-partners">
+					<h1> general partner</h1>
+					<div class="col-12 description-partners" data-partner="IDACB">
+						<div class="logo text-center">
+							<img src="https://idacb.com/assets/contexts/main/images/logo.svg" alt="" style="width: 250px">
+							<h2>IDACB<br>(International Decentralized Association of Cryptocurrency and Blockchain)</h2>
+						</div>
+						<br>
+						<p class="text-justify">International Decentralized Association of Cryptocurrency and Blockchain (hereinafter – IDACB) as an initiative for the international co-working and business cooperation is founded to create a community of strong countries` representatives.</p>
+						<p class="text-justify">The International Decentralized Association of Cryptocurrency and Blockchain is to work out basic principles of market legal regulation and synchronize law initiatives in Blockchain and Cryptocurrency; to organize community of experts, ideologists and professionals and to protect the market from frauds, scams and unfair practices. The primary objective of the Association is to uplift the Blockchain ecosystem and community and to address the critical skills gap with respect to Blockchain technology.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section id="form">
 		<div class="container">
 			<div class="row">
