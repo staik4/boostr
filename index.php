@@ -653,7 +653,7 @@
 						<label class="d-flex justify-content-around align-items-center" for="fio"><input type="text" id="fio" name="fio" placeholder="Name" min="3" required></label>
 						<label class="d-flex justify-content-around align-items-center" for="email"><input type="email" id="email" name="email" placeholder="Mail" required></label>
 						<label class="d-flex justify-content-around align-items-center" for="tel"><input type="tel" id="tel" name="tel" placeholder="Telephone" max="12" min="12" pattenr="\d{12}" required></label>
-						<div class="file"><span class="choose-file">Upload file</span><input type="file" id="file" name="file"></div>
+						<div class="file"><span class="choose-file">Upload your idea</span><input type="file" id="file" name="file"></div>
 						<div class="d-flex justify-content-center"><button type="submit" class="btn-choose">Join us</button></div>
 					</form>
 				</div>
