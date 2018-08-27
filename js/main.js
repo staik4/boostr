@@ -134,6 +134,14 @@ $(document).ready(function(){
 		}
 	});
 
+	$(".next").click(function(){
+		console.log('next');
+	owl.trigger('next.owl');
+	})
+	$(".prev").click(function(){
+		owl.trigger('prev.owl');
+	})
+
 	let kDeltaX = 0;
 	let jDeltaX = 0;
 	let kDeltaY = 0;
@@ -142,11 +150,11 @@ $(document).ready(function(){
 		// e.preventDefault();
 		// console.log(e.deltaY, e.deltaX, e.deltaFactor);
 	    if (e.deltaX < 0 ) {
-				$('.owl-carousel').trigger('change.owl.carousel', {
-					autoplay: false
-			  });
+				// $('.owl-carousel').trigger('change.owl.carousel', {
+				// 	autoplay: false
+			  // });
 				kDeltaX+=1;
-				if (kDeltaX >= 20){
+				if (kDeltaX >= 60){
 					owl.trigger('prev.owl');
 					kDeltaX = 0
 					// 	console.log("k", kDeltaX);
@@ -159,7 +167,7 @@ $(document).ready(function(){
 				// console.log(e.deltaX, e.deltaY);
 				jDeltaX+=1;
 				console.log(jDeltaX);
-				if (jDeltaX >= 20){
+				if (jDeltaX >= 50){
 					owl.trigger('next.owl');
 					jDeltaX = 0;
 					jDeltaY = 0;
@@ -220,14 +228,17 @@ $(document).ready(function(){
 		let url = $(this).children('img').attr('src').slice(0,-4);
 		console.log(url);
 		$(this).children('img').attr('src',url + "-hover.svg")
-		$(this).click(function(){
-			if (pos == "top") {
-				$('html, body').stop().animate({scrollTop: $("#industry-focus").offset().top}, 1000);
-			} else {
-				$('html, body').stop().animate({scrollTop: $("#form").offset().top}, 1000);
-			}
-
-		})
+		// $(this).click(function(){
+		// 	if (pos == "top") {
+		// 		owl.trigger('owl.next');
+		// 		console.log('next');
+		// 		// $('html, body').stop().animate({scrollTop: $("#industry-focus").offset().top}, 1000);
+		// 	} else {
+		// 		// $('html, body').stop().animate({scrollTop: $("#form").offset().top}, 1000);
+		// 		owl.trigger('owl.prev');
+		// 	}
+		//
+		// })
 	});
 
 	$('.arrow-team').mouseout(function(){

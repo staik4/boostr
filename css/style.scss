@@ -1044,6 +1044,10 @@ nav {
     font-size: 65px;
   }
 
+  .title-world-map span {
+    font-size: 60px;
+  }
+
 	.logo img {
 		height: 120px;
 	}
@@ -1179,6 +1183,10 @@ nav {
 		font-size: 50px;
 	}
 
+  .title-world-map span {
+    font-size: 50px;
+  }
+
 	.wordwide-presence {
 		padding: 0;
 	}
@@ -1249,6 +1257,11 @@ nav {
 }
 
 @media screen and (max-width: 580px){
+
+  .arrow-team {
+    display: none;
+  }
+
 	.img-westart-unvestment {
 		margin-top: 80px;
 	}
@@ -1264,6 +1277,10 @@ nav {
 	.title-investment {
 		font-size: 40px;
 	}
+
+  .title-world-map span {
+    font-size: 40px;
+  }
 
 }
 

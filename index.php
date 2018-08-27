@@ -375,10 +375,10 @@
 	<section id=team>
 		<div class="container">
 			<div class="row">
-				<div class="arrow-top arrow-team" data-arrow="top">
+				<div class="arrow-top arrow-team next" data-arrow="top">
 					<img src="img/arrow-in-circle-point-to-up.svg" alt="">
 				</div>
-				<div class="arrow-bot arrow-team" data-arrow="bot">
+				<div class="arrow-bot arrow-team prev" data-arrow="bot">
 					<img src="img/arrow-in-circle-point-to-bot.svg" alt="">
 				</div>
 				<div class="team-title"><span>Team and Board</span></div>
@@ -434,22 +434,6 @@
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
 								<div class="d-flex justify-content-center" style="width: 100%">
 									<div class="img-member">
-										<img src="img/team/liam.png" alt="Liam Cox">
-									</div>
-								</div>
-								<div class="desc-of-member">
-									<span class="name-members">Liam Cox<br></span>
-									<!-- <span class="litle-desc-members">Regional Manager for Ireland, Deliveroo<br><br></span> -->
-									<span class="text-members">
-										Liam graduated from the University of Manchester in Economics and Business in 2013 before joining a water utility company to focus on Customer Service. He then joined Deliveroo in November 2015 as an entry-level Operations Associate to help manage the North West region of the UK. He was quickly promoted to Operations Manager to take on full ownership of half of the Region. In September 2016 he was asked to move to Dublin to reshape and improve the Operations function there as Head of Operations, Ireland. After successfully bringing the market back in line, he stepped into the Regional Manager role in September 2017 to run the local Commerical, Operations and Corporate functions of the Irish business.
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
-								<div class="d-flex justify-content-center" style="width: 100%">
-									<div class="img-member">
 										<img src="img/team/stazh.png" alt="Stazh">
 									</div>
 								</div>
@@ -466,12 +450,28 @@
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
 								<div class="d-flex justify-content-center" style="width: 100%">
 									<div class="img-member">
+										<img src="img/team/liam.png" alt="Liam Cox">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members">Liam Cox<br></span>
+									<!-- <span class="litle-desc-members">Regional Manager for Ireland, Deliveroo<br><br></span> -->
+									<span class="text-members">
+										Liam graduated from the University of Manchester in Economics and Business in 2013 before joining a water utility company to focus on Customer Service. He then joined Deliveroo in November 2015 as an entry-level Operations Associate to help manage the North West region of the UK. He was quickly promoted to Operations Manager to take on full ownership of half of the Region. In September 2016 he was asked to move to Dublin to reshape and improve the Operations function there as Head of Operations, Ireland. After successfully bringing the market back in line, he stepped into the Regional Manager role in September 2017 to run the local Commerical, Operations and Corporate functions of the Irish business.
+									</span>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
 										<img src="img/team/polipng.png" alt="Poli">
 									</div>
 								</div>
 								<div class="desc-of-member">
 									<span class="name-members">Poli Kond<br></span>
-									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="litle-desc-members">Manager<br><br></span>
 									<span class="text-members">
 										Core competencies: VC, startups, stock market
 										Worked in a venture fund in Singapore
@@ -479,7 +479,7 @@
 									</span>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="item">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
 								<div class="d-flex justify-content-center" style="width: 100%">
@@ -628,8 +628,8 @@
 			<div class="row">
 				<div class="our-partners">
 					<h1> general partner</h1>
-					<div class="col-12 description-partners" data-partner="IDACB">
-						<div class="logo text-center">
+					<div class="col-12 description-partners " data-partner="IDACB">
+						<div class="logo text-center d-flex flex-wrap justify-content-center">
 							<img src="https://idacb.com/assets/contexts/main/images/logo.svg" alt="" style="width: 250px">
 							<h2>IDACB<br>(International Decentralized Association of Cryptocurrency and Blockchain)</h2>
 						</div>
@@ -653,7 +653,7 @@
 						<label class="d-flex justify-content-around align-items-center" for="fio"><input type="text" id="fio" name="fio" placeholder="Name" min="3" required></label>
 						<label class="d-flex justify-content-around align-items-center" for="email"><input type="email" id="email" name="email" placeholder="Mail" required></label>
 						<label class="d-flex justify-content-around align-items-center" for="tel"><input type="tel" id="tel" name="tel" placeholder="Telephone" max="12" min="12" pattenr="\d{12}" required></label>
-						<div class="file"><span class="choose-file">Download file</span><input type="file" id="file" name="file"></div>
+						<div class="file"><span class="choose-file">Upload file</span><input type="file" id="file" name="file"></div>
 						<div class="d-flex justify-content-center"><button type="submit" class="btn-choose">Join us</button></div>
 					</form>
 				</div>
