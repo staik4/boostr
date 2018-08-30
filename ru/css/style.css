@@ -139,6 +139,34 @@ nav ul {
   border-radius: 26px;
   cursor: pointer;
   font-family: SFUITextRegular; }
+.buttons-banner .btn-research-marketing {
+  margin-top: 20px; }
+  .buttons-banner .btn-research-marketing #mark-res {
+    box-shadow: 0px 10px 25px 0px rgba(235, 88, 69, 0.26);
+    color: #eb5845;
+    background-color: #FFC30F;
+    font-weight: bold;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    border: 1.5px solid #eb5845; }
+    .buttons-banner .btn-research-marketing #mark-res:hover {
+      color: #FFC30F;
+      background-color: #eb5845;
+      font-weight: bold;
+      text-align: center;
+      line-height: 36px;
+      font-size: 16px;
+      border: 1.5px solid #FFC30F; }
+    .buttons-banner .btn-research-marketing #mark-res:active {
+      box-shadow: 0;
+      color: #eb5845;
+      background-color: #FFC30F;
+      font-weight: bold;
+      text-align: center;
+      line-height: 36px;
+      font-size: 16px;
+      border: 1.5px solid #eb5845; }
 .buttons-banner #join-us {
   box-shadow: 0px 10px 25px 0px rgba(235, 88, 69, 0.26);
   color: #eb5845;

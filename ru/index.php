@@ -55,11 +55,13 @@
 					<div class="move banner d-flex flex-column col-xl-12 justify-content-center">
 						<!-- <div class="man"><img src="img/man.svg" alt=""></div> -->
 						<span class="banner-text">FIRST GLOBAL PUBLIC STARTUP <span class="red-text">INVESTMENT ECOSYSTEM</span></span>
-						<div class="buttons-banner d-flex justify-content-center">
-							<div id="join-us" class="btn-banner">Присоединяйтесь</div>
-							<div id="presentation" class="btn-banner">Презентация</div>
+						<div class="buttons-banner d-flex justify-content-center d-flex flex-wrap">
+							<div id="join-us" class="btn-banner">Join us</div>
+							<div id="presentation" class="btn-banner">Pitch Deck</div>
+								<div class="col-12 btn-research-marketing">
+									<button id="mark-res" class="btn-banner" type="button" name="button">Marketing research</button>
+							</div>
 						</div>
-
 					</div>
 					<!-- <div class="moveMan col-xl-6">
 						<div class="img-man">

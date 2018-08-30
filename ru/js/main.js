@@ -15,6 +15,10 @@ $(document).ready(function(){
 	$('#presentation').on('click', function(){
 		document.location.href = '../presentation/WS_ENG.pdf';
 	});
+	
+	$('#mark-res').on('click', function(){
+		document.location.href = '../presentation/WS_ENG.pdf';
+	});
 
 	$('#tel').inputmask("+9(999)-999-9999");
 

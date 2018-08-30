@@ -217,6 +217,39 @@ nav {
   	cursor: pointer;
   	font-family: SFUITextRegular;
   }
+  
+  .btn-research-marketing {
+    margin-top: 20px;
+    #mark-res {
+      box-shadow: 0px 10px 25px 0px rgba(235,88,69,0.26);
+      color: $redcolor;
+    	background-color: $yelcolor;
+    	font-weight: bold;
+    	text-align: center;
+    	line-height: 36px;
+    	font-size: 16px;
+    	border: 1.5px solid $redcolor;
+      &:hover {
+        color: $yelcolor;
+      	background-color: $redcolor;
+      	font-weight: bold;
+      	text-align: center;
+      	line-height: 36px;
+      	font-size: 16px;
+      	border: 1.5px solid $yelcolor;
+      }
+      &:active {
+        box-shadow: 0;
+        color: $redcolor;
+      	background-color: $yelcolor;
+      	font-weight: bold;
+      	text-align: center;
+      	line-height: 36px;
+      	font-size: 16px;
+      	border: 1.5px solid $redcolor;
+      }
+    }
+  }
 
   #join-us {
   	box-shadow: 0px 10px 25px 0px rgba(235,88,69,0.26);
@@ -1260,7 +1293,7 @@ nav {
 	.title-investment {
 		font-size: 40px;
 	}
-  
+
   .title-world-map span {
     font-size: 40px;
   }
