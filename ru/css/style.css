@@ -681,7 +681,9 @@ nav ul {
 
 .desc-of-member .name-members {
   color: #FFC30F;
-  font-size: 18px; }
+  font-size: 18px;
+  display: flex;
+  align-items: center; }
 
 .desc-of-member .litle-desc-members {
   color: white;
@@ -1215,5 +1217,8 @@ nav ul {
   100% {
     transform: rotate(540deg);
     opacity: 0.6; } }
+/*----------flags----------*/
+.flags {
+  margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

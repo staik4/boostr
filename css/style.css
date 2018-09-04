@@ -678,7 +678,9 @@ nav ul {
 .desc-of-member span {
   font-family: SFUITextRegular;
   font-size: 14px;
-  color: #383838; }
+  color: #383838;
+  display: flex;
+  align-items: center; }
 
 .desc-of-member .name-members {
   color: #FFC30F;
@@ -1225,5 +1227,8 @@ nav ul {
   100% {
     transform: rotate(540deg);
     opacity: 0.6; } }
+/*----------flags----------*/
+.flags {
+  margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

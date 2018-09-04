@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css?v=123122">
 	<link rel="stylesheet" href="js/OwlCarousel2/dist/assets/owl.carousel.css">
+	<link rel="stylesheet" href="css/flag-icon.min.css">
 </head>
 <body>
 	<div id="language">
@@ -440,7 +441,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">Stakh Vozniak<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-us flags" style="height:40px; width: 30px;"></span>Stakh Vozniak<br></span>
 									<!-- <span class="litle-desc-members">CEO at Cargofy<br><br></span> -->
 									<span class="text-members">
 										Stakh graduate of Tel Aviv and Stanford Universities. In 2014 he founded Cargofy.com, the company that created AI-driven technology to automate the manual work in logistics. Cargofy.com has helped 5,000 truck drivers to be employed more often and more profitably, helping them to ensure good lives for their families. Cargofy.com also helps to reduce shipping costs, helping businesses and individuals shipping goods by truck. The company was selected to attend the Iowa Startup Accelerator, STARBUZZ, and Capsula. Stakh listed as one of the Top 50 Ukrainian Entrepreneurs in 2017.
@@ -456,7 +457,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">Liam Cox<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-us flags" style="height:40px; width: 30px;"></span>Liam Cox<br></span>
 									<!-- <span class="litle-desc-members">Regional Manager for Ireland, Deliveroo<br><br></span> -->
 									<span class="text-members">
 										Liam graduated from the University of Manchester in Economics and Business in 2013 before joining a water utility company to focus on Customer Service. He then joined Deliveroo in November 2015 as an entry-level Operations Associate to help manage the North West region of the UK. He was quickly promoted to Operations Manager to take on full ownership of half of the Region. In September 2016 he was asked to move to Dublin to reshape and improve the Operations function there as Head of Operations, Ireland. After successfully bringing the market back in line, he stepped into the Regional Manager role in September 2017 to run the local Commerical, Operations and Corporate functions of the Irish business.
@@ -490,7 +491,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">João COSTA PEREIRA<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-br flags" style="height:40px; width: 30px;"></span>João COSTA PEREIRA<br></span>
 									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
 									<span class="text-members">
 										A senior banker specialized in trade and supply chain finance,
@@ -513,7 +514,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">Erik Timmermans<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-be flags" style="height:40px; width: 30px;"></span>Erik Timmermans<br></span>
 									<!-- <span class="litle-desc-members">Owner and Managing Director of BZIX<br><br></span> -->
 									<span class="text-members">
 
@@ -531,7 +532,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">Ralf R. Bauer<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-de flags" style="height:40px; width: 30px;"></span>Ralf R. Bauer<br></span>
 									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
 									<span class="text-members">
 										1995 – 1996 Director for BfG Bank AG in Munich, corporate banking; responsible for the sales force in Bavaria
@@ -551,7 +552,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">Lawrence Fayman<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-br flags" style="height:40px; width: 30px;"></span>Lawrence Fayman<br></span>
 									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
 									<span class="text-members">
 										Lawrence Fayman is a highly skilled and driven financial professional working in Finance for over the last ten years.
@@ -569,7 +570,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">John Brehcist<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-gb flags" style="height:40px; width: 30px;"></span>John Brehcist<br></span>
 									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
 									<span class="text-members">
 									John Brehcist has thirty years’ experience in the Commercial Finance Industry. His Roundwindow consultancy specialises in Strategic Management issues, helping CEOs and leaders develop their strategy, structure, processes and people.
@@ -587,7 +588,7 @@
 									</div>
 								</div>
 								<div class="desc-of-member">
-									<span class="name-members">Dennis Firmansjah MM<br></span>
+									<span class="name-members"><span class="flag-icon flag-icon-id flags" style="height:40px; width: 30px;"></span>Dennis Firmansjah MM<br></span>
 									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
 									<span class="text-members">
 										Dennis Firmansjah has been appointed as Independent Commissioner of PT Bussan Auto Finance, one of the largest motor cycle financing.
@@ -595,6 +596,64 @@
 										He also serves as Chairman of Audit, Nomination and Remuneration Committee.
 										He has been appointed as Independent Commissioner of PT Smart Multi Finance, a middle size finance company with strong captive presence primarily in Kalimantan and Sulawesi.
 										The company concentrates in Multi Purpose Financing activity.
+
+
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/anna.png" alt="Anna">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members"><span class="flag-icon flag-icon-il flags" style="height:40px; width: 30px;"></span>Anna Kulik<br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+										VC Marketing in Israel-Russia chamber of commerce, private business strategy consultant with more than 10 years of experience in marketing and business development in advertising, telecom and hi-tech.
+										MA in social psychology, MBA in marketing (RANEPA), GMBA in entrepreneurship (IDC, Israel), participant of the Beyond Global program devoted to solving global challenges, organizer of the first academic conference BEYOND BLOCKCHAIN in Israel 2017, blogger and an entrepreneur.
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/Pankaj_Bhai.png" alt="Pankaj_Bhai.png">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members"><span class="flag-icon flag-icon-in flags" style="height:40px; width: 30px;"></span>Pankaj Bhai <br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+										Digital marketer and movie producer, CEO of Nexent Digital Ltd, amongst clients of the "Nexent Digital Ltd", such companies as: "ony Music", "Nestle" ,"Uni Lever" ,"Dharma Production", etc.
+
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/mich_tr.png" alt="Michael_Travish.png">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members"><span class="flag-icon flag-icon-ph flags" style="height:40px; width: 30px;"></span><span class="flag-icon flag-icon-us flags" style="height:40px; width: 30px;"></span>Michael Travis<br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+										Mikhail is one of the prominent figures of the international receivables finance industry.
+										He started in 1995 with Rossiyskiy Credit Bank as Head of Factoring Department.
+										In 2004-2009 Mikhail served as the CEO of National Factoring Company.
+
+										Since 2014, Mr Treyvish was consultant on factoring of European Bank for Reconstruction and Development (EBRD). He also participated in consulting projects on factoring in Kazakhstan, Armenia, Indonesia and Vietnam.
+
+										Mikhail was an independent member of the Board of Directors of the insurance company and the Imperial Porcelain Factory. Mr Treyvish is also the founder of the crowdsourcing project FutureBook.
 
 
 									</span>
@@ -697,7 +756,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="js/jquery.inputmask.bundle.min.js"></script>
 	<script src="js/main.js?v=123122"></script>
-	<script src="js/mail.j?v=123122s"></script>
+	<script src="js/mail.js?v=123122s"></script>
 	<script src="js/OwlCarousel2/dist/owl.carousel.js">
 
 	</script>

@@ -885,6 +885,8 @@ nav {
     font-family: SFUITextRegular;
     font-size: 14px;
     color: $darkgreycolor;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -1719,4 +1721,9 @@ nav {
 
 	}
 
+}
+
+/*----------flags----------*/
+.flags {
+  margin-right: 10px;
 }
