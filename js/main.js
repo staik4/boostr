@@ -123,6 +123,7 @@ $(document).ready(function(){
 	    nav:false,
 			autoplay: true,
 			smartSpeed: 1000,
+			autoplayHoverPause:true,
 			responsive:{
 				0:{
 						items:1,
@@ -253,7 +254,7 @@ $(document).ready(function(){
 		$(this).click(function(){
 			if ($(this).data('language') == "ru"){
 				// document.location.replace("http://www.boostr.vc/ru");
-				document.location.replace("http://localhost/boostr/ru");
+				document.location.replace("http://boostr.vc/ru");
 			}
 		})
 	})

@@ -9,7 +9,7 @@ $(document).ready(function(){
       data: formData,
       success: function (data) {
         console.log(data)
-        alert("Письмо отправлено");
+        alert("Your email has been sent!");
       },
       error: function(jqXHR, exception, response) {
         console.log(jqXHR, exception, response );

@@ -30,7 +30,7 @@
 						<nav class="d-flex align-items-center">
 
 							<ul class="nsvUl">
-								<li class="active-nav"><a href="#about">About</a></li>
+								<!-- <li class="active-nav"><a href="#about">About</a></li> -->
 								<li><a href="#give-startup">Investments</a></li>
 								<li><a href="#industry-focus">Industry</a></li>
 								<li><a href="#team">Team</a></li>
@@ -731,8 +731,8 @@
 					<div class="nav col-12 col-md-9 col-lg-6 col-xl-6">
 						<nav class="d-flex align-items-center">
 							<ul class="nsvUl">
-								<li class="active-nav"><a href="#about">About</a></li>
-								<li><a href="#give-startup">Investments</a></li>
+								<!-- <li class="active-nav"><a href="#about">About</a></li> -->
+								<li><a class="" href="#give-startup">Investments</a></li>
 								<li><a href="#industry-focus">Industry</a></li>
 								<li><a href="#team">Team</a></li>
 								<li><a href="#form">Contacts</a></li>

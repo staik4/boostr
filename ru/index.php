@@ -12,7 +12,7 @@
 <body>
 	<div id="language">
 		<div class="change-language">
-			<div class="language en" data-language="en">EN</div>
+			<div class="language en" data-language="ru">EN</div>
 			<div class="language active-language ru" data-language="ru">RU</div>
 		</div>
 	</div>

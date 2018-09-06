@@ -15,7 +15,7 @@ $(document).ready(function(){
 	$('#presentation').on('click', function(){
 		document.location.href = '../presentation/WS_ENG.pdf';
 	});
-	
+
 	$('#mark-res').on('click', function(){
 		document.location.href = '../presentation/WS_ENG.pdf';
 	});
@@ -125,6 +125,7 @@ $(document).ready(function(){
 	    nav:false,
 			autoplay: true,
 			smartSpeed: 1000,
+			autoplayHoverPause:true,
 			responsive:{
 				0:{
 						items:1,
@@ -254,8 +255,9 @@ $(document).ready(function(){
 	$(".language").each(function(){
 		$(this).click(function(){
 			if ($(this).data('language') == "ru"){
+				console.log('asd')
 				// document.location.replace("http://www.boostr.vc/ru");
-				document.location.replace("http://localhost/boostr/ru");
+				document.location.replace("http://boostr.vc");
 			}
 		})
 	})

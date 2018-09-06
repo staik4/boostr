@@ -9,11 +9,11 @@
 
   $thm = "Заявка";
 
-  $msg = "Написал(а): $fio\n<br> Контактный email - $email\n<br> Телефон - $tel\n";
+  $msg = "Написал(а): $fio\n Контактный email - $email\n Телефон - $tel\n";
 
   // $mail_to = "staik4@yandex.ru";
 
-  $mail_to = "info@westart.pro";  
+  $mail_to = "staik4.kim@gmail.com, info@boostr.vc";
 
 if (!empty($_FILES['file']['tmp_name']))
 
@@ -28,9 +28,12 @@ if (!empty($_FILES['file']['tmp_name']))
 }
 
 
-if(empty($picture)) mail($mail_to, $thm, $msg, $picture);
-
-else send_mail($mail_to, $thm, $msg, $picture);
+if(empty($picture)) {
+  mail($mail_to, $thm, $msg);
+  echo $mail_to, $thm, $msg;
+} else {
+  send_mail($mail_to, $thm, $msg, $picture);
+}
 
 function send_mail($to, $thm, $html, $path)
 
