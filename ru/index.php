@@ -12,7 +12,7 @@
 <body>
 	<div id="language">
 		<div class="change-language">
-			<div class="language en" data-language="ru">EN</div>
+			<div class="language en" data-language="en">EN</div>
 			<div class="language active-language ru" data-language="ru">RU</div>
 		</div>
 	</div>
@@ -30,8 +30,8 @@
 						<nav class="d-flex align-items-center">
 
 							<ul class="nsvUl">
-								<li class="active-nav"><a href="#about">О нас</a></li>
-								<li><a href="#give-startup">Инвестиции</a></li>
+								<!-- <li class="active-nav"><a href="#about">О нас</a></li> -->
+								<li class="active-nav"><a href="#give-startup">Инвестиции</a></li>
 								<li><a href="#industry-focus">Индустрия</a></li>
 								<li><a href="#team">Команда</a></li>
 								<li><a href="#form">Присоединяйтесь</a></li>
@@ -658,6 +658,26 @@
 								</div>
 							</div>
 						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/vladimir.png" alt="Vladimir_Travish.png">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members"><span class="flag-icon flag-icon-us flags" style="height:40px; width: 30px;"></span>Vladimir<br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+										Vladimir has more than 10 years of R&D in market leading high tech companies,
+										including technical, team, and project leading. He is proficient in multiple aspects
+										of software an hardware technologies, has a B.Sc degree in Computer Engineering
+										from the Technion and GMBA from IDC in Business Consulting and Entrepreneurship & Innovation tracks.
+										In addition, Vladimir consults private investors, entrepreneurs, and startups, and entrepreneur at heart.
+									</span>
+								</div>
+							</div>
+						</div>
 						<!-- <div class="item">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
 								<div class="d-flex justify-content-center" style="width: 100%">
@@ -727,8 +747,8 @@
 					<div class="nav col-12 col-md-9 col-lg-7 col-xl-7">
 						<nav class="d-flex align-items-center">
 							<ul class="nsvUl">
-								<li class="active-nav"><a href="#about">О нас</a></li>
-								<li><a href="#give-startup">Инвестиции</a></li>
+								<!-- <li class="active-nav"><a href="#about">О нас</a></li> -->
+								<li class="active-nav"><a href="#give-startup">Инвестиции</a></li>
 								<li><a href="#industry-focus">Индустрия</a></li>
 								<li><a href="#team">Команда</a></li>
 								<li><a href="#form">Присоединяйтесь</a></li>

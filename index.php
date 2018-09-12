@@ -650,12 +650,28 @@
 										Mikhail is one of the prominent figures of the international receivables finance industry.
 										He started in 1995 with Rossiyskiy Credit Bank as Head of Factoring Department.
 										In 2004-2009 Mikhail served as the CEO of National Factoring Company.
-
 										Since 2014, Mr Treyvish was consultant on factoring of European Bank for Reconstruction and Development (EBRD). He also participated in consulting projects on factoring in Kazakhstan, Armenia, Indonesia and Vietnam.
-
 										Mikhail was an independent member of the Board of Directors of the insurance company and the Imperial Porcelain Factory. Mr Treyvish is also the founder of the crowdsourcing project FutureBook.
-
-
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 item-team d-flex flex-column align-self-start">
+								<div class="d-flex justify-content-center" style="width: 100%">
+									<div class="img-member">
+										<img src="img/team/vladimir.png" alt="Vladimir_Travish.png">
+									</div>
+								</div>
+								<div class="desc-of-member">
+									<span class="name-members"><span class="flag-icon flag-icon-us flags" style="height:40px; width: 30px;"></span>Vladimir<br></span>
+									<!-- <span class="litle-desc-members">Manager<br><br></span> -->
+									<span class="text-members">
+										Vladimir has more than 10 years of R&D in market leading high tech companies,
+										including technical, team, and project leading. He is proficient in multiple aspects
+										of software an hardware technologies, has a B.Sc degree in Computer Engineering
+										from the Technion and GMBA from IDC in Business Consulting and Entrepreneurship & Innovation tracks.
+										In addition, Vladimir consults private investors, entrepreneurs, and startups, and entrepreneur at heart.
 									</span>
 								</div>
 							</div>

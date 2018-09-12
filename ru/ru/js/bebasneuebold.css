@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'bebasneuebold';
-    src: url('fonts/bebasneuebold.eot');
-    src: url('fonts/bebasneuebold.eot') format('embedded-opentype'),
-         url('fonts/bebasneuebold.woff2') format('woff2'),
-         url('fonts/bebasneuebold.woff') format('woff'),
-         url('fonts/bebasneuebold.ttf') format('truetype'),
-         url('fonts/bebasneuebold.svg#bebasneuebold') format('svg');
-}

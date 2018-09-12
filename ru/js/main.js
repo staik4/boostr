@@ -255,9 +255,8 @@ $(document).ready(function(){
 	$(".language").each(function(){
 		$(this).click(function(){
 			if ($(this).data('language') == "ru"){
-				console.log('asd')
 				// document.location.replace("http://www.boostr.vc/ru");
-				document.location.replace("http://boostr.vc");
+				document.location.replace("http:///boostr.vc");
 			}
 		})
 	})
