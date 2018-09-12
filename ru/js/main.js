@@ -13,11 +13,13 @@ $(document).ready(function(){
 	});
 
 	$('#presentation').on('click', function(){
-		document.location.href = '../presentation/WS_ENG.pdf';
+		window.open("http://boostr.vc/ru/presentation/WS_ENG_08.pdf", '_blank');
+		// document.location.href = '../presentation/WS_ENG.pdf';
 	});
 
 	$('#mark-res').on('click', function(){
-		document.location.href = '../presentation/WS_ENG.pdf';
+		window.open("http://boostr.vc/ru/presentation/WS_ENG.pdf", '_blank');
+		// document.location.href = '../presentation/WS_ENG.pdf';
 	});
 
 	$('#tel').inputmask("+9(999)-999-9999");

@@ -13,10 +13,12 @@ $(document).ready(function(){
 	});
 
 	$('#presentation').on('click', function(){
-		document.location.href = '../presentation/WS_ENG_08.pdf';
+		window.open("http://boostr.vc/presentation/WS_ENG_08.pdf", '_blank');
+		// document.location.href = '../presentation/WS_ENG_08.pdf';
 	});
 	$('#mark-res').on('click', function(){
-		document.location.href = '../presentation/WS_ENG.pdf';
+			window.open("http://boostr.vc/presentation/WS_ENG.pdf", '_blank');
+		// document.location.href = '../presentation/WS_ENG.pdf';
 	});
 	$('#tel').inputmask("+9(999)-999-9999");
 
@@ -254,6 +256,7 @@ $(document).ready(function(){
 		$(this).click(function(){
 			if ($(this).data('language') == "ru"){
 				// document.location.replace("http://www.boostr.vc/ru");
+				// window.open("http://boostr.vc/ru", '_blank');
 				document.location.replace("http://boostr.vc/ru");
 			}
 		})
